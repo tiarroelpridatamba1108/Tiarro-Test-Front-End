@@ -9,4 +9,4 @@ Panduan untuk menjalankannya :
 
 Note : Hasil test frontend tersebut terdapat di branch 'Master'
 
-Sekian dan Terima kasih,
+Sekian dan Terima kasih, semoga saya mendapat kabar baik.
