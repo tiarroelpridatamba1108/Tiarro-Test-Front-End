@@ -1,0 +1,55 @@
+img {
+    width: 400px;;
+}
+
+button {
+    width: 500px;
+    padding: 14px 0 14px 0;
+    border-radius: 10px;
+    color: white;
+    margin-top: 30px;
+    background-color: #999898;
+}
+
+h3 {
+    color: #4F4F4F;
+    text-shadow: 3px 4px 4px #958989;
+    font-weight: 500;
+}
+
+.input {
+    border-width: 2px;
+    border-color: #DFE0EB;
+    border-radius: 8px;
+}
+
+p {
+    font-style: italic;
+    color: #9A9A9A;
+    margin-bottom: 5px;
+}
+
+.animate {
+    position: relative;
+    animation: moveanimation 5s infinite;
+}
+
+@keyframes moveanimation {
+    from {
+        left: 0;
+    }
+    to {
+        left: 20px;
+    }
+}
+
+.loading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    height: auto;
+    min-width: 20vw;
+    max-width: 40vw;
+}
